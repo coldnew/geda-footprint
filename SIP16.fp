@@ -1,4 +1,9 @@
-Element(0x00 "Single in line package" "" "SIP16" 160 10 3 100 0x00)
+# author: coldnew
+# email: coldnew.tw@gmail.com
+# dist-license: GPL 2
+# use-license: unlimited
+# tested: yes
+Element[0x00 "Single in line package" "" "SIP16" 160 10 3 100 0x00]
 (
 	Pin(50 50 60 28 "1" 0x01)
 	Pin(50 150 60 28 "2" 0x01)
@@ -16,7 +21,6 @@ Element(0x00 "Single in line package" "" "SIP16" 160 10 3 100 0x00)
       Pin(50 1350 60 28 "14" 0x01)
 	Pin(50 1450 60 28 "15" 0x01)
 	Pin(50 1550 60 28 "16" 0x01)
-
 	ElementLine(  0 0   0 1600 20)
 	ElementLine(100 0 100 1600 20)
 	ElementLine(  0 0 100 0 20)
