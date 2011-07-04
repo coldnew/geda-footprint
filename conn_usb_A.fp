@@ -1,10 +1,10 @@
-# author: Darrell Harmon
-# email: website@dlharmon.com
+# author: coldnew
+# email: coldnew.tw@gmail.com
 # dist-license: GPL 2
 # use-license: unlimited
 # tested: yes
 
-Element[0x00000000 "" "" "" 120000 122000 0 0 0 100 0x00000000]
+Element[0x00 "USB A-type connector" "" "conn_usb_A" 120000 122000 0 0 0 100 0x00]
 (
 	Pin[-25900 -13200 11500 2000 11500 9100 "" "5" 0x00004001]
 	Pin[25800 -13200 11500 2000 11500 9100 "" "6" 0x00004001]
@@ -15,5 +15,4 @@ Element[0x00000000 "" "" "" 120000 122000 0 0 0 100 0x00000000]
 	ElementLine [-25900 -19700 -25900 -27800 1000]
 	ElementLine [25800 -19600 25800 -27800 1000]
 	ElementLine [-25900 -27800 25800 -27800 1000]
-
-	)
+)
